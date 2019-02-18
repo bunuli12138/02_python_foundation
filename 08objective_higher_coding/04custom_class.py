@@ -79,6 +79,6 @@ if __name__ == '__main__':
     c = Chain().stu
     print(c.stu.alert.friend) # __getattr__
     print(c()) # __call__,当此方法不返回值时，还有多打印一个None
-    
+
     print(callable(c)) # 可被调用的，c()
     print(callable(fib)) # 不可被调用
