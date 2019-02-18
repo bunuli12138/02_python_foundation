@@ -40,7 +40,8 @@ class Student(object):
 
 
 def sl():
-    time.sleep(1.20)
+    time.sleep(0.012)
+    print('sl is running')
 
 if __name__ == '__main__':
     lisa = Student('Lisa', 99)
@@ -53,7 +54,9 @@ if __name__ == '__main__':
     print(lisa.age)
     # print(bart.age) # bart不存在age属性
 
-    # 绑定方法
-    from types import MethodType
-    lisa.sl = MethodType(sl, lisa)  # 给实例绑定一个方法
+    # 实例绑定方法
+    # from types import MethodType
+    # lisa.sl = MethodType(sl, lisa)  # 给实例绑定一个方法
+    # lisa.sl()
+    lisa.sl = sl
     lisa.sl()
