@@ -1,0 +1,9 @@
+Enumerating objects: 22, done.
+Counting objects: 100% (22/22), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (20/20), done.
+Writing objects: 100% (21/21), 4.64 KiB | 679.00 KiB/s, done.
+Total 21 (delta 8), reused 0 (delta 0)
+remote: Resolving deltas: 100% (8/8), completed with 1 local object.
+To github.com:bunuli12138/02_python_foundation.git
+   df16ad9..3ec98c6  master -> master
